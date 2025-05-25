@@ -19,7 +19,7 @@ export const theNames = [
   },
   {
     firstName: "Paulette",
-    lastName: "Big",
+    lastName: "B.",
     birthMonth: "March",
     birthDay: 28,
     birthYear: null,
@@ -28,12 +28,12 @@ export const theNames = [
   },
   {
     firstName: "James",
-    lastName: "Big",
+    lastName: "B.",
     birthMonth: "November",
     birthDay: 13,
     birthYear: null,
     passedAway: "6/13/11",
-    comment: "A great guy",
+    comment: "❤️",
   },
   {
     firstName: "Sue",
@@ -60,7 +60,7 @@ export const theNames = [
     birthDay: 15,
     birthYear: 1973,
     passedAway: null,
-    comment: null,
+    comment: "Carolyn's friend, loco?",
   },
   {
     firstName: "Ruth",
@@ -631,12 +631,12 @@ export const theNames = [
   },
   {
     firstName: "Meredith",
-    lastName: "Ban",
+    lastName: "Squ",
     birthMonth: "August",
     birthDay: 17,
     birthYear: null,
     passedAway: null,
-    comment: null,
+    comment: "Not Jason's wife, but partner",
   },
   {
     firstName: "Corey",
@@ -667,7 +667,7 @@ export const theNames = [
   },
   {
     firstName: "Kai",
-    lastName: "Par",
+    lastName: "P.W.",
     birthMonth: "February",
     birthDay: 25,
     birthYear: 1987,
@@ -916,7 +916,15 @@ export const theNames = [
     passedAway: null,
     comment: null,
   },
-
+  {
+    firstName: "Jason",
+    lastName: "Squ",
+    birthMonth: "August",
+    birthDay: 18,
+    birthYear: null,
+    passedAway: null,
+    comment: null,
+  },
   {
     firstName: "John",
     lastName: "Stewart",
