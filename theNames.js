@@ -298,7 +298,7 @@ export const theNames = [
   },
   {
     firstName: "Mary",
-    lastName: "I (Katherine Hennessey)",
+    lastName: "I.",
     birthMonth: "August",
     birthDay: 9,
     birthYear: 1944,
@@ -506,10 +506,10 @@ export const theNames = [
   {
     firstName: "Mary",
     lastName: "Kel",
-    birthMonth: null,
-    birthDay: null,
-    birthYear: null,
-    passedAway: null,
+    birthMonth: June,
+    birthDay: 12,
+    birthYear: 1923,
+    passedAway: "8/11/2008",
     comment: null,
   },
   {
