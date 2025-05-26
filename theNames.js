@@ -398,8 +398,8 @@ export const theNames = [
   {
     firstName: "Bob",
     lastName: "Jo",
-    birthMonth: null,
-    birthDay: null,
+    birthMonth: "August",
+    birthDay: 3,
     birthYear: null,
     passedAway: null,
     comment: null,
@@ -407,8 +407,8 @@ export const theNames = [
   {
     firstName: "Ryan",
     lastName: "Jo",
-    birthMonth: null,
-    birthDay: null,
+    birthMonth: "September",
+    birthDay: 18,
     birthYear: null,
     passedAway: null,
     comment: null,
@@ -416,8 +416,8 @@ export const theNames = [
   {
     firstName: "Alana",
     lastName: "Jo",
-    birthMonth: "May",
-    birthDay: 1,
+    birthMonth: "January",
+    birthDay: 9,
     birthYear: null,
     passedAway: null,
     comment: null,
