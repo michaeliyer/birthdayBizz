@@ -506,7 +506,7 @@ export const theNames = [
   {
     firstName: "Mary",
     lastName: "Kel",
-    birthMonth: June,
+    birthMonth: "June",
     birthDay: 12,
     birthYear: 1923,
     passedAway: "8/11/2008",
