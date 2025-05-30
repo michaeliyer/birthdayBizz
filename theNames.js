@@ -253,7 +253,7 @@ export const theNames = [
   },
   {
     firstName: "Edith",
-    lastName: "I",
+    lastName: "I.",
     birthMonth: "March",
     birthDay: 22,
     birthYear: 1992,
@@ -262,7 +262,7 @@ export const theNames = [
   },
   {
     firstName: "Christine",
-    lastName: "I",
+    lastName: "I.",
     birthMonth: "March",
     birthDay: 27,
     birthYear: 1966,
@@ -271,7 +271,7 @@ export const theNames = [
   },
   {
     firstName: "Michael",
-    lastName: "I",
+    lastName: "I.",
     birthMonth: "July",
     birthDay: 5,
     birthYear: 1967,
@@ -280,7 +280,7 @@ export const theNames = [
   },
   {
     firstName: "Shekar",
-    lastName: "I",
+    lastName: "I.",
     birthMonth: "July",
     birthDay: 14,
     birthYear: 1963,
@@ -289,7 +289,7 @@ export const theNames = [
   },
   {
     firstName: "Kamal",
-    lastName: "I",
+    lastName: "I.",
     birthMonth: "July",
     birthDay: 28,
     birthYear: null,
@@ -307,7 +307,7 @@ export const theNames = [
   },
   {
     firstName: "Bharathi",
-    lastName: "I",
+    lastName: "I.",
     birthMonth: "November",
     birthDay: 14,
     birthYear: 1958,
@@ -316,7 +316,7 @@ export const theNames = [
   },
   {
     firstName: "Yogesh",
-    lastName: "I",
+    lastName: "I.",
     birthMonth: "December",
     birthDay: 20,
     birthYear: 2006,
@@ -325,7 +325,7 @@ export const theNames = [
   },
   {
     firstName: "Ramanath",
-    lastName: "I",
+    lastName: "I.",
     birthMonth: "December",
     birthDay: 25,
     birthYear: 1933,
@@ -334,7 +334,7 @@ export const theNames = [
   },
   {
     firstName: "Balan",
-    lastName: "I",
+    lastName: "I.",
     birthMonth: "December",
     birthDay: 30,
     birthYear: 1964,
@@ -343,7 +343,7 @@ export const theNames = [
   },
   {
     firstName: "Kuti",
-    lastName: "I",
+    lastName: "I.",
     birthMonth: "February",
     birthDay: 18,
     birthYear: 1958,
@@ -352,7 +352,7 @@ export const theNames = [
   },
   {
     firstName: "Eshi",
-    lastName: "I",
+    lastName: "I.",
     birthMonth: "February",
     birthDay: 19,
     birthYear: 1954,
@@ -361,7 +361,7 @@ export const theNames = [
   },
   {
     firstName: "Bharathi",
-    lastName: "I",
+    lastName: "I.",
     birthMonth: "February",
     birthDay: 2,
     birthYear: 1961,
@@ -370,7 +370,7 @@ export const theNames = [
   },
   {
     firstName: "Amba",
-    lastName: "I",
+    lastName: "I.",
     birthMonth: "December",
     birthDay: 12,
     birthYear: 1954,
@@ -379,7 +379,7 @@ export const theNames = [
   },
   {
     firstName: "Carolyn",
-    lastName: "I",
+    lastName: "I.",
     birthMonth: "August",
     birthDay: 24,
     birthYear: 1973,
@@ -388,7 +388,7 @@ export const theNames = [
   },
   {
     firstName: "Franky",
-    lastName: "I",
+    lastName: "I.",
     birthMonth: "September",
     birthDay: 11,
     birthYear: 2023,
@@ -654,7 +654,7 @@ export const theNames = [
     birthDay: 13,
     birthYear: 1971,
     passedAway: null,
-    comment: null,
+    comment: "Al Olander",
   },
   {
     firstName: "Shannon",
@@ -663,7 +663,7 @@ export const theNames = [
     birthDay: 24,
     birthYear: 1970,
     passedAway: null,
-    comment: null,
+    comment: "Tessie Olander",
   },
   {
     firstName: "Kai",
