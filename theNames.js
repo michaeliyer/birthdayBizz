@@ -1116,4 +1116,13 @@ export const theNames = [
     passedAway: "AD 0033",
     comment: "Who really knows dates when it comes to this mysterious dude?",
   },
+  {
+    firstName: "Easter",
+    lastName: "Bunny",
+    birthMonth: "April",
+    birthDay: "Fluctuating date",
+    birthYear: "Unknown Year",
+    passedAway: "Unknown Year",
+    comment: "This happy bastard loves hopping around like a fool",
+  },
 ];

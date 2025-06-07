@@ -17,7 +17,14 @@ function getSortedNames(arr) {
   return [...arr].sort((a, b) => {
     const nameA = a.lastName?.toLowerCase() || "";
     const nameB = b.lastName?.toLowerCase() || "";
-    return nameA.localeCompare(nameB);
+    const lastNameComparison = nameA.localeCompare(nameB);
+    if (lastNameComparison !== 0) {
+      return lastNameComparison;
+    }
+    // If last names are the same, sort by first name
+    const firstNameA = a.firstName?.toLowerCase() || "";
+    const firstNameB = b.firstName?.toLowerCase() || "";
+    return firstNameA.localeCompare(firstNameB);
   });
 }
 
@@ -37,6 +44,7 @@ function filterNames() {
       (!query.lastName ||
         aHuman.lastName.toLowerCase().startsWith(query.lastName)) &&
       (!query.birthMonth ||
+        query.birthMonth === "all" ||
         (aHuman.birthMonth &&
           aHuman.birthMonth.toLowerCase() === query.birthMonth)) &&
       (!query.birthDay || aHuman.birthDay == query.birthDay) &&
@@ -46,7 +54,16 @@ function filterNames() {
 
   let heading = "Filtered Birthdays";
   if (
+    query.birthMonth === "all" &&
+    !query.firstName &&
+    !query.lastName &&
+    !query.birthDay &&
+    !query.birthYear
+  ) {
+    heading = "All Birthdays";
+  } else if (
     query.birthMonth &&
+    query.birthMonth !== "all" &&
     !query.firstName &&
     !query.lastName &&
     !query.birthDay &&
@@ -142,3 +159,52 @@ clearAllBtn.addEventListener("click", () => {
 
 // Hide all data on page load
 resultsDiv.innerHTML = "";
+
+// Function to count birthdays by month and update dropdown
+function updateDropdownWithCounts() {
+  const monthCounts = {};
+  const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+
+  // Initialize counts
+  months.forEach((month) => (monthCounts[month] = 0));
+
+  // Count birthdays by month
+  let totalWithBirthdays = 0;
+  theNames.forEach((person) => {
+    if (person.birthMonth && months.includes(person.birthMonth)) {
+      monthCounts[person.birthMonth]++;
+      totalWithBirthdays++;
+    }
+  });
+
+  // Update dropdown options
+  const monthSelect = document.getElementById("birthMonth");
+  monthSelect.innerHTML = `
+    <option value="">-- Month --</option>
+    <option value="all">All Months (${totalWithBirthdays})</option>
+    ${months
+      .map(
+        (month) =>
+          `<option value="${month.toLowerCase()}">${month} (${
+            monthCounts[month]
+          })</option>`
+      )
+      .join("")}
+  `;
+}
+
+// Call on page load
+updateDropdownWithCounts();
