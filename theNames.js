@@ -993,7 +993,7 @@ export const theNames = [
   {
     firstName: "Robert, Jr.",
     lastName: "Und",
-    birthMonth: May,
+    birthMonth: "May",
     birthDay: 23,
     birthYear: 1967,
     passedAway: null,
