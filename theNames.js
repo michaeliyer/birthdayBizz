@@ -824,7 +824,7 @@ export const theNames = [
     birthDay: 4,
     birthYear: 2011,
     passedAway: null,
-    comment: "Selena kid 1",
+    comment: "Selena's kid 1",
   },
   {
     firstName: "Leo",
@@ -833,7 +833,7 @@ export const theNames = [
     birthDay: 24,
     birthYear: 2010,
     passedAway: null,
-    comment: "Selena kid 2",
+    comment: "Selena's kid 2",
   },
     {
     firstName: "Billie",
