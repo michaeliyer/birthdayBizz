@@ -1153,8 +1153,8 @@ export const theNames = [
     comment: "Who really knows dates when it comes to this mysterious dude?",
   },
   {
-    firstName: "Easter",
-    lastName: "Bunny",
+    firstName: "Easter Bunny",
+    lastName: "Jones",
     birthMonth: "April",
     birthDay: "Fluctuating date",
     birthYear: "Unknown Year",
