@@ -1107,6 +1107,15 @@ export const theNames = [
     passedAway: null,
     comment: null,
   },
+    {
+    firstName: "Len",
+    lastName: "Wil",
+    birthMonth: "August",
+    birthDay: 29,
+    birthYear: 1937,
+    passedAway: "March 17, 2025",
+    comment: "Laura's Dad - A good man",
+  },
   {
     firstName: "Steven",
     lastName: "Cy",
