@@ -1228,7 +1228,7 @@ export const theNames = [
     birthYear: 1967,
     passedAway: null,
     comment: null,
-    family: "Williams",
+    family: "T'sut",
   },
   {
     firstName: "Len",
@@ -1238,7 +1238,7 @@ export const theNames = [
     birthYear: 1937,
     passedAway: "March 17, 2025",
     comment: "Laura's Dad - A good man",
-    family: "Williams",
+    family: "T'sut",
   },
   {
     firstName: "Steven",
