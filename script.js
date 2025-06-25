@@ -2,7 +2,7 @@ import { theNames } from "./theNames.js";
 const inputs = {
   firstName: document.getElementById("firstName"),
   lastName: document.getElementById("lastName"),
-  family: document.getElementById("family"),
+  group: document.getElementById("group"),
   birthMonth: document.getElementById("birthMonth"),
   birthDay: document.getElementById("birthDay"),
   birthYear: document.getElementById("birthYear"),
@@ -33,7 +33,7 @@ function filterNames() {
   const query = {
     firstName: inputs.firstName.value.trim().toLowerCase(),
     lastName: inputs.lastName.value.trim().toLowerCase(),
-    family: inputs.family.value.trim(),
+    group: inputs.group.value.trim(),
     birthMonth: inputs.birthMonth.value.trim().toLowerCase(),
     birthDay: inputs.birthDay.value.trim(),
     birthYear: inputs.birthYear.value.trim(),
@@ -45,7 +45,7 @@ function filterNames() {
         aHuman.firstName.toLowerCase().startsWith(query.firstName)) &&
       (!query.lastName ||
         aHuman.lastName.toLowerCase().startsWith(query.lastName)) &&
-      (!query.family || aHuman.family === query.family) &&
+      (!query.group || aHuman.group === query.group) &&
       (!query.birthMonth ||
         query.birthMonth === "all" ||
         (aHuman.birthMonth &&
@@ -60,7 +60,7 @@ function filterNames() {
     query.birthMonth === "all" &&
     !query.firstName &&
     !query.lastName &&
-    !query.family &&
+    !query.group &&
     !query.birthDay &&
     !query.birthYear
   ) {
@@ -70,7 +70,7 @@ function filterNames() {
     query.birthMonth !== "all" &&
     !query.firstName &&
     !query.lastName &&
-    !query.family &&
+    !query.group &&
     !query.birthDay &&
     !query.birthYear
   ) {
@@ -79,14 +79,14 @@ function filterNames() {
       query.birthMonth.charAt(0).toUpperCase() + query.birthMonth.slice(1);
     heading = `${monthName} Birthdays (${results.length})`;
   } else if (
-    query.family &&
+    query.group &&
     !query.firstName &&
     !query.lastName &&
     !query.birthMonth &&
     !query.birthDay &&
     !query.birthYear
   ) {
-    heading = `${query.family} Family (${results.length})`;
+    heading = `${query.group} Group (${results.length})`;
   }
   displayResults(getSortedNames(results), heading);
   allNamesVisible = false;
@@ -154,8 +154,8 @@ Object.values(inputs).forEach((input) => {
 clearBtn.addEventListener("click", () => {
   Object.values(inputs).forEach((input) => {
     if (input.tagName === "SELECT") {
-      if (input.id === "family") {
-        input.selectedIndex = 0; // Reset to "-- Family --"
+      if (input.id === "group") {
+        input.selectedIndex = 0; // Reset to "-- Group --"
       } else if (input.id === "birthMonth") {
         input.selectedIndex = 0; // Reset to "-- Month --"
       } else {
@@ -183,23 +183,21 @@ clearAllBtn.addEventListener("click", () => {
 // Hide all data on page load
 resultsDiv.innerHTML = "";
 
-// Function to populate family dropdown
-function populateFamilyDropdown() {
-  const familySelect = document.getElementById("family");
-  const uniqueFamilies = [
+// Function to populate group dropdown
+function populateGroupDropdown() {
+  const groupSelect = document.getElementById("group");
+  const uniqueGroups = [
     ...new Set(
-      theNames
-        .map((person) => person.family)
-        .filter((family) => family !== null)
+      theNames.map((person) => person.group).filter((group) => group !== null)
     ),
   ];
 
-  familySelect.innerHTML = '<option value="">-- Family --</option>';
-  uniqueFamilies.forEach((family) => {
+  groupSelect.innerHTML = '<option value="">-- Group --</option>';
+  uniqueGroups.forEach((group) => {
     const option = document.createElement("option");
-    option.value = family;
-    option.textContent = family;
-    familySelect.appendChild(option);
+    option.value = group;
+    option.textContent = group;
+    groupSelect.appendChild(option);
   });
 }
 
@@ -250,5 +248,5 @@ function updateDropdownWithCounts() {
 }
 
 // Call on page load
-populateFamilyDropdown();
+populateGroupDropdown();
 updateDropdownWithCounts();
