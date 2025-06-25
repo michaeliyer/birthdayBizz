@@ -7,6 +7,7 @@ export const theNames = [
     birthYear: 1965,
     passedAway: null,
     comment: null,
+    family:  null,
   },
   {
     firstName: "Lauren",
@@ -16,6 +17,7 @@ export const theNames = [
     birthYear: 1975,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Paulette",
@@ -25,6 +27,7 @@ export const theNames = [
     birthYear: null,
     passedAway: "3/10/23",
     comment: "❤️",
+    family: "Bignell",
   },
   {
     firstName: "James",
@@ -34,6 +37,7 @@ export const theNames = [
     birthYear: null,
     passedAway: "6/13/11",
     comment: "❤️",
+    family: "Bignell",
   },
   {
     firstName: "Sue",
@@ -43,6 +47,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Chris",
@@ -52,6 +57,7 @@ export const theNames = [
     birthYear: 1969,
     passedAway: null,
     comment: "I take it you and your wife are still alive?",
+    family: null,
   },
   {
     firstName: "Anne",
@@ -61,6 +67,7 @@ export const theNames = [
     birthYear: 1973,
     passedAway: null,
     comment: "Carolyn's friend, loco?",
+    family: null,
   },
   {
     firstName: "Ruth",
@@ -70,6 +77,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Leah",
@@ -79,6 +87,7 @@ export const theNames = [
     birthYear: 1970,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Robert",
@@ -88,6 +97,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "James",
@@ -97,6 +107,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Helena",
@@ -106,6 +117,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Anne",
@@ -115,6 +127,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "George",
@@ -124,6 +137,7 @@ export const theNames = [
     birthYear: 1941,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Diane",
@@ -133,6 +147,7 @@ export const theNames = [
     birthYear: 1942,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Pat",
@@ -142,6 +157,7 @@ export const theNames = [
     birthYear: 1974,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Leigh",
@@ -151,6 +167,7 @@ export const theNames = [
     birthYear: 1977,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Maurice",
@@ -160,6 +177,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: "Flick",
+    family: null,
   },
   {
     firstName: "Rita",
@@ -169,6 +187,7 @@ export const theNames = [
     birthYear: 1919,
     passedAway: "September 5, 2012",
     comment: null,
+    family: null,
   },
   {
     firstName: "Pat",
@@ -178,6 +197,7 @@ export const theNames = [
     birthYear: 1981,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Mike",
@@ -187,6 +207,7 @@ export const theNames = [
     birthYear: 1984,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Jack",
@@ -196,6 +217,7 @@ export const theNames = [
     birthYear: 1987,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Daniel",
@@ -205,6 +227,7 @@ export const theNames = [
     birthYear: 1988,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Marty",
@@ -214,6 +237,7 @@ export const theNames = [
     birthYear: 1948,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Maureen",
@@ -223,6 +247,7 @@ export const theNames = [
     birthYear: 1956,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "John",
@@ -232,6 +257,7 @@ export const theNames = [
     birthYear: 1916,
     passedAway: "8/9/69",
     comment: "Grandfather",
+    family: null,
   },
   {
     firstName: "Rose",
@@ -241,6 +267,7 @@ export const theNames = [
     birthYear: 2023,
     passedAway: null,
     comment: "Daniel's Kid",
+    family: null,
   },
   {
     firstName: "Katherine",
@@ -250,6 +277,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "John",
@@ -259,6 +287,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Edith",
@@ -268,6 +297,7 @@ export const theNames = [
     birthYear: 1992,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Christine",
@@ -277,6 +307,7 @@ export const theNames = [
     birthYear: 1966,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Michael",
@@ -286,6 +317,7 @@ export const theNames = [
     birthYear: 1967,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Shekar",
@@ -295,6 +327,7 @@ export const theNames = [
     birthYear: 1963,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Kamal",
@@ -304,6 +337,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Mary",
@@ -313,6 +347,7 @@ export const theNames = [
     birthYear: 1944,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Bharathi",
@@ -322,6 +357,7 @@ export const theNames = [
     birthYear: 1958,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Yogesh",
@@ -331,6 +367,7 @@ export const theNames = [
     birthYear: 2006,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Ramanath",
@@ -340,6 +377,7 @@ export const theNames = [
     birthYear: 1933,
     passedAway: "1/12/16",
     comment: null,
+    family: null,
   },
   {
     firstName: "Balan",
@@ -349,6 +387,7 @@ export const theNames = [
     birthYear: 1964,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Kuti",
@@ -358,6 +397,7 @@ export const theNames = [
     birthYear: 1958,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Eshi",
@@ -367,6 +407,7 @@ export const theNames = [
     birthYear: 1954,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Bharathi",
@@ -376,6 +417,7 @@ export const theNames = [
     birthYear: 1961,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Amba",
@@ -385,6 +427,7 @@ export const theNames = [
     birthYear: 1954,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Carolyn",
@@ -394,6 +437,7 @@ export const theNames = [
     birthYear: 1973,
     passedAway: null,
     comment: null,
+    family: "Bignell",
   },
   {
     firstName: "Franky",
@@ -403,6 +447,7 @@ export const theNames = [
     birthYear: 2023,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Bob",
@@ -412,6 +457,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Ryan",
@@ -421,6 +467,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Alana",
@@ -430,6 +477,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Brigid",
@@ -439,6 +487,7 @@ export const theNames = [
     birthYear: 2025,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Gerard",
@@ -448,6 +497,7 @@ export const theNames = [
     birthYear: 1969,
     passedAway: "12/4/09",
     comment: null,
+    family: null,
   },
   {
     firstName: "Michael",
@@ -457,6 +507,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Wendy",
@@ -466,6 +517,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Maureen",
@@ -475,6 +527,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Dylan",
@@ -484,6 +537,7 @@ export const theNames = [
     birthYear: 2015,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Deirdre",
@@ -493,6 +547,7 @@ export const theNames = [
     birthYear: 1959,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Siobhan",
@@ -502,6 +557,7 @@ export const theNames = [
     birthYear: 1959,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Grace",
@@ -511,6 +567,7 @@ export const theNames = [
     birthYear: 1961,
     passedAway: "11/4/2014",
     comment: null,
+    family: null,
   },
   {
     firstName: "Mary",
@@ -520,6 +577,7 @@ export const theNames = [
     birthYear: 1923,
     passedAway: "8/11/2008",
     comment: null,
+    family: null,
   },
   {
     firstName: "Robert",
@@ -529,6 +587,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Patricia",
@@ -538,6 +597,7 @@ export const theNames = [
     birthYear: 1974,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Christine",
@@ -547,6 +607,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Courtney",
@@ -556,6 +617,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Riley ",
@@ -565,6 +627,7 @@ export const theNames = [
     birthYear: 2009,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Eleanor",
@@ -574,6 +637,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "John, Jr.",
@@ -583,6 +647,7 @@ export const theNames = [
     birthYear: 2006,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "John",
@@ -592,6 +657,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Jake",
@@ -601,6 +667,7 @@ export const theNames = [
     birthYear: 1969,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Oscar",
@@ -610,6 +677,7 @@ export const theNames = [
     birthYear: 2004,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Razel",
@@ -619,6 +687,7 @@ export const theNames = [
     birthYear: 2001,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Gelaine",
@@ -628,6 +697,7 @@ export const theNames = [
     birthYear: 1966,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Duane",
@@ -637,6 +707,7 @@ export const theNames = [
     birthYear: 1972,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Meredith",
@@ -646,6 +717,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: "Not Jason's wife, but partner",
+    family: null,
   },
   {
     firstName: "Corey",
@@ -655,6 +727,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Josiah",
@@ -664,6 +737,7 @@ export const theNames = [
     birthYear: 1971,
     passedAway: null,
     comment: "Al Olander",
+    family: null,
   },
   {
     firstName: "Shannon",
@@ -673,6 +747,7 @@ export const theNames = [
     birthYear: 1970,
     passedAway: null,
     comment: "Tessie Olander",
+    family: null,
   },
   {
     firstName: "Kai",
@@ -682,6 +757,7 @@ export const theNames = [
     birthYear: 1987,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Eryn",
@@ -691,6 +767,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Charlie",
@@ -699,6 +776,7 @@ export const theNames = [
     birthDay: null,
     birthYear: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Louisa",
@@ -708,6 +786,7 @@ export const theNames = [
     birthYear: 2001,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Naomi",
@@ -717,6 +796,7 @@ export const theNames = [
     birthYear: 1999,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Jonathon",
@@ -726,6 +806,7 @@ export const theNames = [
     birthYear: 1965,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Marino",
@@ -735,6 +816,7 @@ export const theNames = [
     birthYear: 1961,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Lynne",
@@ -744,6 +826,7 @@ export const theNames = [
     birthYear: 1965,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Oliver",
@@ -753,6 +836,7 @@ export const theNames = [
     birthYear: 2001,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Paul",
@@ -762,6 +846,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Andrey",
@@ -771,6 +856,7 @@ export const theNames = [
     birthYear: 1988,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Danika",
@@ -780,6 +866,7 @@ export const theNames = [
     birthYear: 2022,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Lorelei",
@@ -789,6 +876,7 @@ export const theNames = [
     birthYear: 2018,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Ophelia",
@@ -798,6 +886,7 @@ export const theNames = [
     birthYear: 2022,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Carol",
@@ -807,6 +896,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Naomi",
@@ -816,6 +906,7 @@ export const theNames = [
     birthYear: 2008,
     passedAway: null,
     comment: "Livia's kid 1",
+    family: null,
   },
   {
     firstName: "Fiona",
@@ -825,6 +916,7 @@ export const theNames = [
     birthYear: 2010,
     passedAway: null,
     comment: "Livia's kid 2",
+    family: null,
   },
   {
     firstName: "Luna",
@@ -834,6 +926,7 @@ export const theNames = [
     birthYear: 2011,
     passedAway: null,
     comment: "Selena's kid 1",
+    family: null,
   },
   {
     firstName: "Leo",
@@ -843,8 +936,9 @@ export const theNames = [
     birthYear: 2010,
     passedAway: null,
     comment: "Selena's kid 2",
+    family: null,
   },
-    {
+  {
     firstName: "Billie",
     lastName: "Ske",
     birthMonth: "August",
@@ -852,6 +946,7 @@ export const theNames = [
     birthYear: 1931,
     passedAway: "October 27, 2022",
     comment: "The Good William",
+    family: null,
   },
   {
     firstName: "Bertha",
@@ -861,6 +956,7 @@ export const theNames = [
     birthYear: 1882,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Joseph",
@@ -870,6 +966,7 @@ export const theNames = [
     birthYear: 1923,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Roger",
@@ -879,6 +976,7 @@ export const theNames = [
     birthYear: 1926,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Pamela",
@@ -888,6 +986,7 @@ export const theNames = [
     birthYear: 1956,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Selena",
@@ -897,6 +996,7 @@ export const theNames = [
     birthYear: 1978,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Livia",
@@ -906,6 +1006,7 @@ export const theNames = [
     birthYear: 1980,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Tony",
@@ -915,6 +1016,7 @@ export const theNames = [
     birthYear: 2002,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Isabel",
@@ -924,6 +1026,7 @@ export const theNames = [
     birthYear: 2002,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Patrick, Jr.",
@@ -933,6 +1036,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Patrick",
@@ -942,6 +1046,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Maryanne",
@@ -951,6 +1056,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Sloane",
@@ -960,6 +1066,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Jason",
@@ -969,6 +1076,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "John",
@@ -979,6 +1087,7 @@ export const theNames = [
     passedAway: "Ok, he's alive but dead in terms of brain power",
     comment:
       "A nice guy but not particularly bright - Worried too much about trans stuff and in love with Trump - gross!",
+    family: null,
   },
   {
     firstName: "Omer",
@@ -988,6 +1097,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Evangeline",
@@ -997,6 +1107,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Scott",
@@ -1006,6 +1117,7 @@ export const theNames = [
     birthYear: 1969,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Peter",
@@ -1016,6 +1128,7 @@ export const theNames = [
     passedAway: "July 11, 2003",
     comment:
       "You and that asshole Bob Harvey shouldn't have ganged up on me. That was low rent man.",
+    family: null,
   },
   {
     firstName: "Peggy",
@@ -1025,6 +1138,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Robert",
@@ -1034,6 +1148,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Robert, Jr.",
@@ -1043,6 +1158,7 @@ export const theNames = [
     birthYear: 1967,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Elizabeth",
@@ -1052,6 +1168,7 @@ export const theNames = [
     birthYear: 1966,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Nancy",
@@ -1061,6 +1178,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: null,
   },
   {
     firstName: "Lisa",
@@ -1070,6 +1188,7 @@ export const theNames = [
     birthYear: 1975,
     passedAway: null,
     comment: null,
+    family: "Bignell",
   },
   {
     firstName: "Elise",
@@ -1079,6 +1198,7 @@ export const theNames = [
     birthYear: 2005,
     passedAway: null,
     comment: null,
+    family: "Bignell",
   },
   {
     firstName: "River",
@@ -1088,6 +1208,7 @@ export const theNames = [
     birthYear: 2007,
     passedAway: null,
     comment: null,
+    family: "Bignell",
   },
   {
     firstName: "Trevor",
@@ -1097,6 +1218,7 @@ export const theNames = [
     birthYear: 1969,
     passedAway: null,
     comment: null,
+    family: "Bignell",
   },
   {
     firstName: "Laura",
@@ -1106,8 +1228,9 @@ export const theNames = [
     birthYear: 1967,
     passedAway: null,
     comment: null,
+    family: "Williams",
   },
-    {
+  {
     firstName: "Len",
     lastName: "Wil",
     birthMonth: "August",
@@ -1115,6 +1238,7 @@ export const theNames = [
     birthYear: 1937,
     passedAway: "March 17, 2025",
     comment: "Laura's Dad - A good man",
+    family: "Williams",
   },
   {
     firstName: "Steven",
@@ -1124,6 +1248,7 @@ export const theNames = [
     birthYear: 1968,
     passedAway: null,
     comment: null,
+    family: "Random",
   },
   {
     firstName: "Kimberly",
@@ -1133,6 +1258,7 @@ export const theNames = [
     birthYear: 1975,
     passedAway: null,
     comment: null,
+    family: "Random",
   },
   {
     firstName: "Jo-Ann",
@@ -1142,15 +1268,17 @@ export const theNames = [
     birthYear: 1966,
     passedAway: null,
     comment: null,
+    family: "Random",
   },
   {
-    firstName: "Kim",
+    firstName: "Max",
     lastName: "Cy",
     birthMonth: null,
     birthDay: null,
     birthYear: null,
-    passedAway: null,
-    comment: null,
+    passedAway: 2010,
+    comment: "Dog - Dead",
+    family: "Random",
   },
   {
     firstName: "Michael",
@@ -1160,6 +1288,7 @@ export const theNames = [
     birthYear: null,
     passedAway: null,
     comment: null,
+    family: "Random",
   },
   {
     firstName: "Jesus H.",
@@ -1169,6 +1298,7 @@ export const theNames = [
     birthYear: "BC 0005",
     passedAway: "AD 0033",
     comment: "Who really knows dates when it comes to this mysterious dude?",
+    family: null,
   },
   {
     firstName: "Easter Bunny",
@@ -1178,5 +1308,6 @@ export const theNames = [
     birthYear: "Unknown Year",
     passedAway: "Unknown Year",
     comment: "This happy bastard loves hopping around like a fool",
+    family: null,
   },
 ];
