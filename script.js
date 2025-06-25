@@ -55,7 +55,7 @@ function filterNames() {
     );
   });
 
-  let heading = "Filtered Birthdays";
+  let heading = `Filtered Birthdays (${results.length})`;
   if (
     query.birthMonth === "all" &&
     !query.firstName &&
@@ -170,7 +170,8 @@ clearBtn.addEventListener("click", () => {
 });
 
 showAllBtn.addEventListener("click", () => {
-  displayResults(getSortedNames(theNames), "All Birthdays");
+  const sortedNames = getSortedNames(theNames);
+  displayResults(sortedNames, `All Birthdays (${sortedNames.length})`);
   allNamesVisible = true;
 });
 
