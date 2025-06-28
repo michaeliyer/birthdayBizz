@@ -1,4 +1,4 @@
-import { theNames } from "./theNames.js";
+import { myPeople } from "./myPeople.js";
 const inputs = {
   firstName: document.getElementById("firstName"),
   lastName: document.getElementById("lastName"),
@@ -39,13 +39,14 @@ function filterNames() {
     birthYear: inputs.birthYear.value.trim(),
   };
 
-  const results = theNames.filter((aHuman) => {
+  const results = myPeople.filter((aHuman) => {
     return (
       (!query.firstName ||
         aHuman.firstName.toLowerCase().startsWith(query.firstName)) &&
       (!query.lastName ||
         aHuman.lastName.toLowerCase().startsWith(query.lastName)) &&
-      (!query.group || aHuman.group === query.group) &&
+      (!query.group ||
+        (aHuman.groups && aHuman.groups.includes(query.group))) &&
       (!query.birthMonth ||
         query.birthMonth === "all" ||
         (aHuman.birthMonth &&
@@ -170,7 +171,7 @@ clearBtn.addEventListener("click", () => {
 });
 
 showAllBtn.addEventListener("click", () => {
-  const sortedNames = getSortedNames(theNames);
+  const sortedNames = getSortedNames(myPeople);
   displayResults(sortedNames, `All Birthdays (${sortedNames.length})`);
   allNamesVisible = true;
 });
@@ -186,11 +187,10 @@ resultsDiv.innerHTML = "";
 // Function to populate group dropdown
 function populateGroupDropdown() {
   const groupSelect = document.getElementById("group");
-  const uniqueGroups = [
-    ...new Set(
-      theNames.map((person) => person.group).filter((group) => group !== null)
-    ),
-  ];
+  const allGroups = myPeople.flatMap((person) => person.groups || []);
+  const uniqueGroups = [...new Set(allGroups)].filter(
+    (group) => group !== null
+  );
 
   groupSelect.innerHTML = '<option value="">-- Group --</option>';
   uniqueGroups.forEach((group) => {
@@ -224,7 +224,7 @@ function updateDropdownWithCounts() {
 
   // Count birthdays by month
   let totalWithBirthdays = 0;
-  theNames.forEach((person) => {
+  myPeople.forEach((person) => {
     if (person.birthMonth && months.includes(person.birthMonth)) {
       monthCounts[person.birthMonth]++;
       totalWithBirthdays++;
