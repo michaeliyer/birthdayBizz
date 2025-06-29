@@ -306,7 +306,7 @@ export const myPeople = [
     birthDay: 27,
     birthYear: 1966,
     passedAway: null,
-    comment: "Sister, cool"
+    comment: "Sister, cool",
     groups: ["My People", "All", "Family"],
   },
   {
