@@ -6,7 +6,7 @@ export const myPeople = [
     birthDay: 26,
     birthYear: 1965,
     passedAway: null,
-    comment: null,
+    comment: "The Old Phallometer!",
     groups: ["Les Français", "All"],
   },
   {
@@ -296,7 +296,7 @@ export const myPeople = [
     birthDay: 22,
     birthYear: 1992,
     passedAway: null,
-    comment: null,
+    comment: "Bird, my niece!",
     groups: ["My People", "All", "Family"],
   },
   {
@@ -306,7 +306,7 @@ export const myPeople = [
     birthDay: 27,
     birthYear: 1966,
     passedAway: null,
-    comment: null,
+    comment: "Sister, cool",
     groups: ["My People", "All", "Family"],
   },
   {
@@ -316,7 +316,7 @@ export const myPeople = [
     birthDay: 5,
     birthYear: 1967,
     passedAway: null,
-    comment: null,
+    comment: "Me, the guy doing this shit!",
     groups: ["My People", "All", "Family"],
   },
   {
