@@ -6,7 +6,7 @@ export const myPeople = [
     birthDay: 26,
     birthYear: 1965,
     passedAway: null,
-    comment: null,
+    comment: "The Old Phallometer!",
     groups: ["Les Français", "All"],
   },
   {
