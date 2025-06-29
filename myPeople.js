@@ -7,7 +7,7 @@ export const myPeople = [
     birthYear: 1965,
     passedAway: null,
     comment: "The Old Phallometer!",
-    groups: ["Les Français", "All"],
+    groups: ["Les Français", "All", "Friend"],
   },
   {
     firstName: "Lauren",
