@@ -1102,8 +1102,8 @@ export const myPeople = [
   {
     firstName: "Maxine",
     lastName: "T",
-    birthMonth: null,
-    birthDay: null,
+    birthMonth: "January",
+    birthDay: 28,
     birthYear: null,
     passedAway: null,
     comment: null,
