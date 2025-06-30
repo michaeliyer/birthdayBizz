@@ -96,7 +96,7 @@ export const myPeople = [
     birthDay: 6,
     birthYear: null,
     passedAway: null,
-    comment: null,
+    comment: "Point O' Woods friend - his brother Kevin: Dead - defenders of my honor - anti-Bullies",
     groups: [ "All"],
   },
   {
@@ -106,7 +106,7 @@ export const myPeople = [
     birthDay: 3,
     birthYear: null,
     passedAway: null,
-    comment: null,
+    comment: "Jimmy C., now hates me!",
     groups: [ "All", "Friend" ],
   },
   {
@@ -116,7 +116,7 @@ export const myPeople = [
     birthDay: null,
     birthYear: null,
     passedAway: null,
-    comment: null,
+    comment: "Gram's Mom",
     groups: [ "All", "Family"],
   },
   {
