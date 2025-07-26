@@ -153,6 +153,8 @@ Object.values(inputs).forEach((input) => {
 });
 
 clearBtn.addEventListener("click", () => {
+      console.log("Clear All button works,");
+
   Object.values(inputs).forEach((input) => {
     if (input.tagName === "SELECT") {
       if (input.id === "group") {
@@ -171,6 +173,7 @@ clearBtn.addEventListener("click", () => {
 });
 
 showAllBtn.addEventListener("click", () => {
+    console.log("Show All button works");
   const sortedNames = getSortedNames(myPeople);
   displayResults(sortedNames, `All Birthdays (${sortedNames.length})`);
   allNamesVisible = true;
