@@ -622,7 +622,7 @@ export const myPeople = [
   {
     firstName: "Riley ",
     lastName: "L",
-    birthMonth: "April",
+    birthMonth: "October",
     birthDay: 14,
     birthYear: 2009,
     passedAway: null,
